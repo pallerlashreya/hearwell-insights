@@ -13,21 +13,18 @@ const conditions = [
     description:
       "Partial or total inability to hear sounds clearly, often caused by prolonged headphone use or aging.",
     imageUrl: hearingLossImg,
-    risk: "High" as const,
   },
   {
     title: "Tinnitus",
     description:
       "Ringing or buzzing sensation in the ears, common in people exposed to loud noises.",
     imageUrl: tinnitusImg,
-    risk: "Medium" as const,
   },
   {
     title: "Ear Infection",
     description:
       "Inflammation of the middle ear causing pain, pressure, and temporary hearing difficulty.",
     imageUrl: earInfectionImg,
-    risk: "Low" as const,
   },
 ];
 
@@ -160,7 +157,7 @@ const Index = () => {
           <div className="flex items-center gap-3">
             <div className="h-px flex-1 bg-gradient-to-r from-transparent via-border to-transparent" />
             <h2 className="text-xl font-semibold text-foreground px-4">
-              Hearing Defects & Associated Conditions
+              Hearing Defects
             </h2>
             <div className="h-px flex-1 bg-gradient-to-r from-transparent via-border to-transparent" />
           </div>

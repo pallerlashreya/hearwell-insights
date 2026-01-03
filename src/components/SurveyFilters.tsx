@@ -108,7 +108,8 @@ const SurveyFilters = ({ onPredict }: SurveyFiltersProps) => {
               <SelectValue placeholder="Worry about missing sounds?" />
             </SelectTrigger>
             <SelectContent className="bg-popover z-50">
-              <SelectItem value="No">No, never</SelectItem>
+              <SelectItem value="Never">Never</SelectItem>
+              <SelectItem value="Rarely">Rarely</SelectItem>
               <SelectItem value="Sometimes">Sometimes</SelectItem>
               <SelectItem value="Yes, often">Yes, often</SelectItem>
             </SelectContent>
