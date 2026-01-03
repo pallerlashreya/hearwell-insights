@@ -14,7 +14,7 @@ const Header = () => {
                 Hearing Well-being
               </h1>
               <p className="text-xs text-muted-foreground">
-                Survey & Risk Assessment
+                Protect Your Hearing Health
               </p>
             </div>
           </div>
